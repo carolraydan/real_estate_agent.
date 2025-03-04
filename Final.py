@@ -144,7 +144,7 @@ def speak_and_transcribe(text, language="en-GB"):
         logger.error(f"Error in text-to-speech synthesis: {e}")
 
 # OpenRouter API configuration
-API_KEY = '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'
+API_KEY = 'PUT_API_KEY_HERE'
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 def call_openrouter_api(user_input, conversation_history, API_URL, API_KEY):
